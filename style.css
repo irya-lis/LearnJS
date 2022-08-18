@@ -1,0 +1,15 @@
+div, ul, li {
+    padding: 20px;
+}
+
+div {
+    border: 3px solid red;
+}
+
+ul {
+    border: 3px solid orange;
+}
+
+li {
+    border: 3px solid yellow;
+}

@@ -1,0 +1,6 @@
+input {
+    margin: 3px;
+    display:        flex;
+    flex-flow:      column wrap;
+    justify-content: space-between;
+}

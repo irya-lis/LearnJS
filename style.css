@@ -3,13 +3,12 @@
 }
 
 ol, li {
-
     padding: 10px;
     margin: 10px;
 }
 
 ol {
-    width: 300px;
+    width: 400px;
     border: 3px solid orange;
 }
 
@@ -21,5 +20,18 @@ li {
 
 #button {
     background-color: brown;
+    color: white;
+}
+
+.close {
+    position: relative;
+    left: 280px;
+    background-color: darkgray;
+    bottom: 40px;
+    height: 30px;
+}
+
+.close:hover {
+    background-color: darkred;
     color: white;
 }

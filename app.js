@@ -19,6 +19,21 @@ addElem.addEventListener('click', function addElement() {
         li.remove();
         button.remove();
     })
+
+
+    li.addEventListener('click', function addInput() {
+        let inp = document.createElement('input');
+        inp.value = li.textContent;
+        li.textContent = '';
+        li.appendChild(inp);
+
+        inp.addEventListener('blur', function () {
+            li.textContent = this.value;
+            li.addEventListener('click', addInput);
+        })
+
+        li.removeEventListener('click', addInput);
+    })
 })
 
 
